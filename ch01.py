@@ -19,3 +19,7 @@ class FrenchDeck:
 
     def __getitem__(self, position):
         return self._cards[position]
+
+
+beer_card = Card('7', 'diamonds')
+print(beer_card)
