@@ -43,3 +43,5 @@ for card in deck:
 
 for card in reversed(deck):
     print(card)
+
+print(Card('Q', 'hearts') in deck)
