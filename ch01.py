@@ -29,3 +29,9 @@ print(f'{len(deck)=}')
 
 print(f'{deck[0]=}')
 print(f'{deck[-1]=}')
+
+# NBVAL_IGNORE_OUTPUT
+from random import choice
+
+
+print(f'{choice(deck)=}')
