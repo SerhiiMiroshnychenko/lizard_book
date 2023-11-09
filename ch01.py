@@ -35,3 +35,4 @@ from random import choice
 
 
 print(f'{choice(deck)=}')
+print(f'{deck[:3]=}')
