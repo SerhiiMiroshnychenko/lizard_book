@@ -45,3 +45,4 @@ for card in reversed(deck):
     print(card)
 
 print(Card('Q', 'hearts') in deck)
+print(Card('7', 'beasts') in deck)
