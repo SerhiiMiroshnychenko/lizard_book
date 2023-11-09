@@ -28,3 +28,4 @@ deck = FrenchDeck()
 print(f'{len(deck)=}')
 
 print(f'{deck[0]=}')
+print(f'{deck[-1]=}')
