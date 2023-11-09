@@ -25,6 +25,6 @@ beer_card = Card('7', 'diamonds')
 print(f'{beer_card=}')
 
 deck = FrenchDeck()
-len(deck)
 print(f'{len(deck)=}')
 
+print(f'{deck[0]=}')
