@@ -22,4 +22,9 @@ class FrenchDeck:
 
 
 beer_card = Card('7', 'diamonds')
-print(beer_card)
+print(f'{beer_card=}')
+
+deck = FrenchDeck()
+len(deck)
+print(f'{len(deck)=}')
+
