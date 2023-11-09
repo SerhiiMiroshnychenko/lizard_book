@@ -40,3 +40,6 @@ print(f'{deck[12::13]=}')
 
 for card in deck:
     print(card)
+
+for card in reversed(deck):
+    print(card)
