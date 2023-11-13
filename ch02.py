@@ -3,6 +3,8 @@ Example 2-1. Build a list of Unicode codepoints from a string, using a listcomp
 """
 
 
+
+import itertools
 symbols = '$¢£¥€¤'
 codes = [ord(symbol) for symbol in symbols]
 print(f'{codes=}')
@@ -34,3 +36,9 @@ colors = ['black', 'white']
 sizes = ['S', 'M', 'L']
 tshirts = [(color, size) for color in colors for size in sizes]
 print(f'{tshirts = }')
+
+# for color in colors:
+#     for size in sizes:
+#         print((color, size))
+for color, size in itertools.product(colors, sizes):
+    print((color, size))
