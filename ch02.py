@@ -11,3 +11,6 @@ x = 'ABC'
 codes = [ord(x) for x in x]
 print(f'{x = }')
 print(f'{codes = }')
+
+codes = [last := ord(c) for c in x]
+print(f'{last = }')
