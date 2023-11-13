@@ -46,3 +46,9 @@ for color, size in itertools.product(colors, sizes):
 tshirts = [(color, size) for size in sizes for color in colors]
 print(f'{tshirts = }')
 
+"""
+Example 2-5. Initializing a tuple and an array from a generator expression
+"""
+
+symbols = '$¢£¥€¤'
+print(tuple(ord(symbol) for symbol in symbols))
