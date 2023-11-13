@@ -42,3 +42,7 @@ print(f'{tshirts = }')
 #         print((color, size))
 for color, size in itertools.product(colors, sizes):
     print((color, size))
+
+tshirts = [(color, size) for size in sizes for color in colors]
+print(f'{tshirts = }')
+
