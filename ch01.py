@@ -89,3 +89,6 @@ class Vector:
 v1 = Vector(2, 4)
 v2 = Vector(2, 1)
 print('v1 + v2 =', v1 + v2)
+
+v = Vector(3, 4)
+print('abs(Vector(3, 4) = )', abs(v))
