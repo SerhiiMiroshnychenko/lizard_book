@@ -85,3 +85,7 @@ class Vector:
 
     def __mul__(self, scalar):
         return Vector(self.x * scalar, self.y * scalar)
+
+v1 = Vector(2, 4)
+v2 = Vector(2, 1)
+print('v1 + v2 =', v1 + v2)
