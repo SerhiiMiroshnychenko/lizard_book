@@ -91,4 +91,6 @@ v2 = Vector(2, 1)
 print('v1 + v2 =', v1 + v2)
 
 v = Vector(3, 4)
-print('abs(Vector(3, 4) = )', abs(v))
+print('abs(Vector(3, 4) =)', abs(v))
+
+print('Vector(3, 4)*3 =', v * 3)
