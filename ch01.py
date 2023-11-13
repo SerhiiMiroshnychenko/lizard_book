@@ -63,6 +63,7 @@ Example 1-2. A simple two-dimensional vector class
 
 import math
 
+
 class Vector:
 
     def __init__(self, x=0, y=0):
@@ -85,6 +86,7 @@ class Vector:
 
     def __mul__(self, scalar):
         return Vector(self.x * scalar, self.y * scalar)
+
 
 v1 = Vector(2, 4)
 v2 = Vector(2, 1)
