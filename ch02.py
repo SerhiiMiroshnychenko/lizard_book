@@ -144,3 +144,10 @@ import os
 
 _, filename = os.path.split('/home/luciano/.ssh/id_rsa.pub')
 print(filename)  # 'id_rsa.pub'
+
+################################
+# Using * to grab excess items #
+################################
+
+a, b, *rest = range(5)
+print(a, b, rest)  # (0, 1, [2, 3, 4])
