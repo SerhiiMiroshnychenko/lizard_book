@@ -84,3 +84,10 @@ for passport in sorted(traveler_ids):
 # BRA/CE342567
 # ESP/XDA205856
 # USA/31195855
+
+for country, _ in traveler_ids:
+    print(country)
+
+# USA
+# BRA
+# ESP
