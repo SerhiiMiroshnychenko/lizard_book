@@ -106,3 +106,6 @@ print(a == b)  # True
 
 b[-1].append(99)
 print(a == b)  # False
+
+print(b)  # (10, 'alpha', [1, 2, 99])
+
