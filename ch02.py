@@ -91,3 +91,15 @@ for country, _ in traveler_ids:
 # USA
 # BRA
 # ESP
+
+#############################
+# Tuples as Immutable Lists #
+#############################
+
+"""
+Tuples as Immutable Lists
+"""
+
+a = (10, 'alpha', [1, 2])
+b = (10, 'alpha', [1, 2])
+print(a == b)  # True
