@@ -129,3 +129,5 @@ print(fixed(tm))  # False
 lax_coordinates = (33.9425, -118.408056)
 latitude, longitude = lax_coordinates  # unpacking
 print(latitude)  # 33.9425
+
+print(longitude)  # -118.408056
