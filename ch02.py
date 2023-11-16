@@ -134,4 +134,6 @@ print(longitude)  # -118.408056
 
 print(divmod(20, 8))  # (2, 4)
 
+t = (20, 8)
+print(divmod(*t))  # (2, 4)
 
