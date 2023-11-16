@@ -109,3 +109,14 @@ print(a == b)  # False
 
 print(b)  # (10, 'alpha', [1, 2, 99])
 
+def fixed(o):
+    try:
+        hash(o)
+    except TypeError:
+        return False
+    return True
+
+
+tf = (10, 'alpha', (1, 2))  # Contains no mutable items
+tm = (10, 'alpha', [1, 2])  # Contains a mutable item (list)
+print(fixed(tf))  # True
