@@ -56,3 +56,15 @@ print(tuple(ord(symbol) for symbol in symbols))
 import array
 
 print(array.array('I', (ord(symbol) for symbol in symbols)))
+
+"""
+Example 2-6. Cartesian product in a generator expression
+"""
+
+colors = ['black', 'white']
+sizes = ['S', 'M', 'L']
+
+for tshirt in ('%s %s' % (c, s) for c in colors for s in sizes):
+    print(tshirt)
+
+
