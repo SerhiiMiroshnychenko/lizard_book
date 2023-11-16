@@ -137,3 +137,5 @@ print(divmod(20, 8))  # (2, 4)
 t = (20, 8)
 print(divmod(*t))  # (2, 4)
 
+quotient, remainder = divmod(*t)
+print(quotient, remainder)  # (2, 4)
