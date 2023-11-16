@@ -121,3 +121,11 @@ tf = (10, 'alpha', (1, 2))  # Contains no mutable items
 tm = (10, 'alpha', [1, 2])  # Contains a mutable item (list)
 print(fixed(tf))  # True
 print(fixed(tm))  # False
+
+#####################################
+# Unpacking sequences and iterables #
+#####################################
+
+lax_coordinates = (33.9425, -118.408056)
+latitude, longitude = lax_coordinates  # unpacking
+print(latitude)  # 33.9425
