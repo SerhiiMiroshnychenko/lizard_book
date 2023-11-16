@@ -2,8 +2,6 @@
 Example 2-1. Build a list of Unicode codepoints from a string, using a listcomp
 """
 
-
-
 import itertools
 symbols = '$¢£¥€¤'
 codes = [ord(symbol) for symbol in symbols]
@@ -154,3 +152,6 @@ print(a, b, rest)  # (0, 1, [2, 3, 4])
 
 a, b, *rest = range(3)
 print(a, b, rest)  # (0, 1, [2])
+
+a, b, *rest = range(2)
+a, b, rest  # (0, 1, [])
