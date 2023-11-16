@@ -131,3 +131,7 @@ latitude, longitude = lax_coordinates  # unpacking
 print(latitude)  # 33.9425
 
 print(longitude)  # -118.408056
+
+print(divmod(20, 8))  # (2, 4)
+
+
