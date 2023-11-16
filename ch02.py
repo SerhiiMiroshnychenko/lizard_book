@@ -120,3 +120,4 @@ def fixed(o):
 tf = (10, 'alpha', (1, 2))  # Contains no mutable items
 tm = (10, 'alpha', [1, 2])  # Contains a mutable item (list)
 print(fixed(tf))  # True
+print(fixed(tm))  # False
