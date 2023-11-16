@@ -154,4 +154,8 @@ a, b, *rest = range(3)
 print(a, b, rest)  # (0, 1, [2])
 
 a, b, *rest = range(2)
-a, b, rest  # (0, 1, [])
+print(a, b, rest)  # (0, 1, [])
+
+a, *body, c, d = range(5)
+print(a, body, c, d)  # (0, [1, 2], 3, 4)
+
