@@ -139,3 +139,8 @@ print(divmod(*t))  # (2, 4)
 
 quotient, remainder = divmod(*t)
 print(quotient, remainder)  # (2, 4)
+
+import os
+
+_, filename = os.path.split('/home/luciano/.ssh/id_rsa.pub')
+print(filename)  # 'id_rsa.pub'
