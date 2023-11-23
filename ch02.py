@@ -181,3 +181,7 @@ print({*range(4), 4, *(5, 6, 7)})  # {0, 1, 2, 3, 4, 5, 6, 7}
 ####################
 # Nested unpacking #
 ####################
+
+"""
+Example 2-8. Unpacking nested tuples to access the longitude
+"""
