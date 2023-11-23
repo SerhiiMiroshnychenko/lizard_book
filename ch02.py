@@ -240,3 +240,7 @@ Example 2-9. Method from an imaginary Robot class
 #             self.leds[ident].set_color(ident, red, green, blue)
 #         case _:
 #             raise InvalidCommand(message)
+
+"""
+Example 2-10. Destructuring nested tuples—requires Python ≥ 3.10.
+"""
