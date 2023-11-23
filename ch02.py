@@ -223,3 +223,7 @@ if __name__ == '__main__':
 ###################################
 # Pattern Matching with Sequences #
 ###################################
+
+"""
+Example 2-9. Method from an imaginary Robot class
+"""
