@@ -171,3 +171,5 @@ def fun(a, b, c, d, *rest):
 
 
 print(fun(*[1, 2], 3, *range(4, 7)))  # (1, 2, 3, 4, (5, 6))
+
+print(*range(4), 4)  # (0, 1, 2, 3, 4)
