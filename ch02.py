@@ -199,6 +199,7 @@ Demonstration of nested tuple unpacking::
 
 """
 
+"""
 # tag::MAIN[]
 metro_areas = [
     ('Tokyo', 'JP', 36.933, (35.689722, 139.691667)),  # <1>
@@ -217,3 +218,8 @@ def main():
 if __name__ == '__main__':
     main()
 # end::MAIN[]
+"""
+
+###################################
+# Pattern Matching with Sequences #
+###################################
