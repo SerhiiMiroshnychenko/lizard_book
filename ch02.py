@@ -261,3 +261,9 @@ def main():
                 print(f'{name:15} | {lat:9.4f} | {lon:9.4f}')
 print(main())
 
+"""
+              |  latitude | longitude
+Mexico City     |   19.4333 |  -99.1333
+New York-Newark |   40.8086 |  -74.0204
+São Paulo       |  -23.5478 |  -46.6358
+"""
